@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: tmshkr/ngrok-ssh@main
+      - uses: tmshkr/ngrok-ssh@dev
         with:
           NGROK_AUTHTOKEN: ${{ secrets.NGROK_AUTHTOKEN }}
       - run: npm start
