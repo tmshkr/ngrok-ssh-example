@@ -1,0 +1,7 @@
+{
+  "name": "ngrok-ssh-example",
+  "scripts": {
+    "start": "npx -y serve"
+  },
+  "license": "MIT"
+}
